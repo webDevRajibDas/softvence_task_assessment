@@ -7,10 +7,14 @@ use Illuminate\Support\Str;
 
 class Course extends Model
 {
-
+    use HasFactory;
 
     protected $fillable = ['title','description', 'video_path', 'status','category_id','module_id','price','created_by','slug'];
 
+    public function modules()
+    {
+        return $this->hasMany(Module::class);
+    }
     protected static function boot()
     {
         parent::boot();
