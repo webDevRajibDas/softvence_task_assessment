@@ -8,8 +8,8 @@ This document explains how to install, configure, and run the Laravel project lo
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
+https://github.com/webDevRajibDas/softvence_task_assessment.git
+cd softvence_task_assessment
 
 ```
 
